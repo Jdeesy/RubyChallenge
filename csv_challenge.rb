@@ -1,3 +1,4 @@
+## PSEUDOCODE
 # Method parse_csv
 # Use the CSV file that was initialized
 # for each row inside of it is a new object
@@ -18,6 +19,8 @@
 # loop over the display_data hash
 # print out needed info
 
+
+## INITIAL SOLUTION
 require 'csv'
 file = 'challenge-data.csv'
 
@@ -61,6 +64,7 @@ class Auctions
 
 end
 
+## TEST
 test = Auctions.new(file)
 test.parse_csv
 # p test.auctions
